@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ICard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="CreatureCard">
+  <Name>African Elephant</Name>
+  <ManaCost>
+    <int>1</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>1</int>
+  </ManaCost>
+  <Type>Creature - Elephant</Type>
+  <Description>An elephant from the plains of Africa</Description>
+  <Rarity>Uncommon</Rarity>
+  <Collection>HR:TG Base Pack</Collection>
+  <CN xsi:nil="true" />
+  <Targets />
+  <Tapped>false</Tapped>
+  <Sick>true</Sick>
+  <Attack>1</Attack>
+  <Toughness>3</Toughness>
+</ICard>

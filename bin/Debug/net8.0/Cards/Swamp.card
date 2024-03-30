@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ICard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="LandCard">
+  <Name>Swamp</Name>
+  <ManaCost>
+    <int>0</int>
+    <int>0</int>
+    <int>1</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+  </ManaCost>
+  <Type>Land</Type>
+  <Description />
+  <Rarity>Common</Rarity>
+  <Collection>HR:TG Base Pack</Collection>
+  <CN xsi:nil="true" />
+  <Targets />
+  <Tapped>false</Tapped>
+  <Sick>false</Sick>
+  <Attack>0</Attack>
+  <Toughness>0</Toughness>
+</ICard>

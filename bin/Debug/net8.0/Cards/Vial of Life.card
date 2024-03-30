@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ICard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="SpellCard">
+  <Name>Vial of Life</Name>
+  <ManaCost>
+    <int>2</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>2</int>
+    <int>0</int>
+  </ManaCost>
+  <Type>Instant - Healing</Type>
+  <Description>Small vial from the Fountain of Youth</Description>
+  <Rarity>Rare</Rarity>
+  <Collection>HR:TG Base Pack</Collection>
+  <CN xsi:nil="true" />
+  <Targets />
+  <Ability xsi:type="HealAbility">
+    <Damage>0</Damage>
+    <Heal>3</Heal>
+  </Ability>
+  <Tapped>false</Tapped>
+  <Sick>false</Sick>
+  <Attack>0</Attack>
+  <Toughness>0</Toughness>
+</ICard>

@@ -1,0 +1,14 @@
+X:\GameDev\TCG\TCG\obj\Debug\net8.0\TCG.GeneratedMSBuildEditorConfig.editorconfig
+X:\GameDev\TCG\TCG\obj\Debug\net8.0\TCG.AssemblyInfoInputs.cache
+X:\GameDev\TCG\TCG\obj\Debug\net8.0\TCG.AssemblyInfo.cs
+X:\GameDev\TCG\TCG\obj\Debug\net8.0\TCG.csproj.CoreCompileInputs.cache
+X:\GameDev\TCG\TCG\bin\Debug\net8.0\TCG.exe
+X:\GameDev\TCG\TCG\bin\Debug\net8.0\TCG.deps.json
+X:\GameDev\TCG\TCG\bin\Debug\net8.0\TCG.runtimeconfig.json
+X:\GameDev\TCG\TCG\bin\Debug\net8.0\TCG.dll
+X:\GameDev\TCG\TCG\bin\Debug\net8.0\TCG.pdb
+X:\GameDev\TCG\TCG\obj\Debug\net8.0\TCG.dll
+X:\GameDev\TCG\TCG\obj\Debug\net8.0\refint\TCG.dll
+X:\GameDev\TCG\TCG\obj\Debug\net8.0\TCG.pdb
+X:\GameDev\TCG\TCG\obj\Debug\net8.0\TCG.genruntimeconfig.cache
+X:\GameDev\TCG\TCG\obj\Debug\net8.0\ref\TCG.dll
