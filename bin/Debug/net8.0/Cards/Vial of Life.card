@@ -14,7 +14,6 @@
   <Rarity>Rare</Rarity>
   <Collection>HR:TG Base Pack</Collection>
   <CN xsi:nil="true" />
-  <Targets />
   <Ability xsi:type="HealAbility">
     <Damage>0</Damage>
     <Heal>3</Heal>

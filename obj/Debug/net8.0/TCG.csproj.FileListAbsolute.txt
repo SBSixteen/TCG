@@ -12,3 +12,4 @@ X:\GameDev\TCG\TCG\obj\Debug\net8.0\refint\TCG.dll
 X:\GameDev\TCG\TCG\obj\Debug\net8.0\TCG.pdb
 X:\GameDev\TCG\TCG\obj\Debug\net8.0\TCG.genruntimeconfig.cache
 X:\GameDev\TCG\TCG\obj\Debug\net8.0\ref\TCG.dll
+X:\GameDev\TCG\TCG\obj\Debug\net8.0\TCG.sourcelink.json

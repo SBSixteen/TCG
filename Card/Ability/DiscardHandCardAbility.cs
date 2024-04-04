@@ -15,7 +15,7 @@ namespace TCG.Card.Ability
         {
             Random random = new Random();
             int select = random.Next(Board.Board.GetOpposingPlayer().GetHandLength());
-            Board.Board.GetOpposingPlayer().DiscardCard(select);
+            Board.Board.GetOpposingPlayer().DiscardHandCard(select);
         }
 
         public override string ToString()

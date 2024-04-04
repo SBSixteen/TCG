@@ -22,7 +22,7 @@ namespace TCG.Card
         public string? Rarity;  //Rarity of the card
         public string? Collection; // The DLC/Collection to which the card belongs to
         public int? CN; // Card Number of the DLC/Collection 
-        public List<ICard> Targets = new List<ICard>(); // Other cards on which this card may act on during play phase
+        public ICard? Target; // Other cards on which this card may act on during play phase
         public IAbility? Ability;
         public bool Tapped = false;
         public bool Sick = false;
@@ -36,7 +36,12 @@ namespace TCG.Card
         public abstract string Define();
         public void AddTarget(ICard target)
         {
-            Targets.Add(target);
+            Target = target;
+        }
+
+        public ICard GetTarget()
+        {
+            return Target;
         }
         public void MakeSick()
         {

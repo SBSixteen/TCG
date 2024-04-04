@@ -38,8 +38,6 @@ foreach (ICard card in d)
     Logger.Log(card.toString());
 }*/
 
-Logger.Log(CardFactory.ReadPublishedCard("Hell's Fireball.card").toString());
-
 Board.Initialize();
 while (true)
 {

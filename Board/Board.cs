@@ -16,7 +16,7 @@ namespace TCG.Board
         static Player CurrentPlayer;
         static Player OpposingPlayer;
 
-        static Logger Logger = Logger.getInstance();
+        public static Logger Logger = Logger.getInstance();
 
         static Player P1;
         static Player P2;

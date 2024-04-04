@@ -41,7 +41,7 @@ namespace TCG.Board
                     while (true)
                     {
                         Logger.Break();
-                        Logger.Log($"Which card you you like to play? [0 - Cancel]");
+                        Logger.Log($"Which card would you like to play? [0 - Cancel]");
                         string card_select = Console.ReadLine();
                         int n;
                         if (int.TryParse(card_select, out n))
@@ -64,10 +64,9 @@ namespace TCG.Board
                                 Console.Clear();
                                 break;
                             }
-                            Logger.Record($"{Board.GetCurrentPlayer().Name} successfully picked a card from their hand [{n}]");
+                            Logger.Log($"{Board.GetCurrentPlayer().Name} picked {Board.GetCurrentPlayer().GetHand()[n - 1].Define()} card from their hand");
 
                             string type = Board.GetCurrentPlayer().GetHand()[n-1].GetType().ToString();
-                            Logger.Log(type);
 
                             if (type == ("TCG.Card.LandCard"))
                             {
@@ -141,15 +140,18 @@ namespace TCG.Board
                 }
                 else if (input == "3")
                 {
+                    Console.Clear();
                     Board.GetCurrentPlayer().RevealPermanents();
                     Logger.Break();
                 }else if (input == "4")
                 {
+                    Console.Clear();
                     Board.GetCurrentPlayer().RevealHand();
                     Logger.Break();
                 }
                 else if (input == "5")
                 {
+                    Console.Clear();
                     Logger.Log(Board.GetCurrentPlayer().toString());
                     Logger.Break();
                 }

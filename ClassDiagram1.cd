@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TCG.Board.ActionState" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Board\ActionState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.299" />
+  </Class>
+  <Class Name="TCG.Board.Board">
+    <Position X="3" Y="4.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAggABAAAhLAgSQACABAARgIAACAQABAAAAAggAAAIE=</HashCode>
+      <FileName>Board\Board.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TCG.Board.BoardFailureState" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Board\BoardFailureState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.404" />
+  </Class>
+  <Class Name="TCG.Board.DrawCardState" BaseTypeListCollapsed="true">
+    <Position X="10" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Board\DrawCardState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.565" />
+  </Class>
+  <Class Name="TCG.Board.EndTurnState" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Board\EndTurnState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.47" />
+  </Class>
+  <Class Name="TCG.Board.NewBoardState" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Board\NewBoardState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.185" />
+  </Class>
+  <Class Name="TCG.Board.Player">
+    <Position X="0.5" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABFAC0AAACNARAIAAAQABJSAEACApABAQAFAMAABAQA=</HashCode>
+      <FileName>Board\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TCG.Card.Ability.DamageAbility">
+    <Position X="11" Y="10.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Card\Ability\DamageAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TCG.Card.Ability.DiscardHandCardAbility">
+    <Position X="11" Y="8.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Card\Ability\DiscardHandCardAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TCG.Card.Ability.HealAbility">
+    <Position X="6" Y="9.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Card\Ability\HealAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TCG.Card.Ability.IAbility">
+    <Position X="9" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAASEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Card\Ability\IAbility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TCG.Card.CardFactory">
+    <Position X="6" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQBAIAAAAIAAAAEAAAAEAAAAAAAAAgAQAAAAAAAACA=</HashCode>
+      <FileName>Card\CardFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TCG.Card.CreatureCard">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAgAAAAAAABAA=</HashCode>
+      <FileName>Card\CreatureCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TCG.Card.ICard" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAEgQgACAAAABCQAAKQAQAEAgQAABgAABAA=</HashCode>
+      <FileName>Card\ICard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TCG.Card.LandCard">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAABAAAAAAAAAAAgAAAAAAABAA=</HashCode>
+      <FileName>Card\LandCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TCG.Card.SpellCard">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAgAAAAAAABAA=</HashCode>
+      <FileName>Card\SpellCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TCG.Utility.Logger">
+    <Position X="11.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAoAAAQAQAIAAAAABAA=</HashCode>
+      <FileName>Utility\Logger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TCG.Utility.StringHelper">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAEAAAAAAACAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Utility\StringHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="TCG.Board.IBoardState">
+    <Position X="10.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Board\IBoardState.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

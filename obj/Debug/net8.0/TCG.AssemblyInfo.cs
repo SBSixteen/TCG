@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TCG")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+966e84fdc693e69b884077d17ba10b179ac5732e")]
 [assembly: System.Reflection.AssemblyProductAttribute("TCG")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TCG")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

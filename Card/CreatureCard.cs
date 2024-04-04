@@ -28,11 +28,28 @@ namespace TCG.Card
         {
             if (Sick)
             {
-                
+
             }
-            if (Targets.Count == 0)
+            if (Target == null)
             {
-                //Board.GetOpposingPlayer().addDamage(Attack);
+                Board.Board.GetCurrentPlayer().GetEnemy().addDamage(Attack);
+                Tapped = true;
+            }
+            else
+            {
+                Toughness -= Target.Attack;
+                Target.Toughness -= Attack;
+
+                if (Target.Toughness < 1) {
+                    Board.Board.Logger.Log($"{Target.Name} succumbed to their wounds!");
+                }
+
+                if (Toughness < 1)
+                {
+                    Board.Board.Logger.Log($"{Name} succumbed to their wounds!");
+                }
+
+                Tapped = true;
             }
         }
 
